@@ -1,0 +1,151 @@
+body {
+    background-image: url('../Image-default/job.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    /* Màu văn bản của hyperlink */
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+}
+
+.tablerow {
+    background-color: rgba(204, 204, 204, 0.8);
+    margin: auto;
+    width: 500px;
+    height: au;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    justify-content: center;
+}
+
+.foget,
+.create {
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box {
+    position: relative;
+    width: 479px;
+    height: 30px;
+}
+
+.tk {
+    margin-top: 30px;
+    display: flex;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(8, 8, 8);
+    outline: none;
+}
+
+label {
+    position: absolute;
+    font-size: 18px;
+    color: #535353;
+    user-select: text;
+    top: 50%;
+    left: 15px;
+    transition: all .1s linear;
+}
+
+input:focus~label,
+input:not(:placeholder-shown)~label {
+    top: -25px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: none;
+    padding: 0 3px;
+}
+
+.tk,
+.mk {
+    margin-bottom: 40px;
+}
+
+.box1 {
+    background-color: white;
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10%;
+}
+
+.box1 i {
+    color: black;
+}
+
+.box1,
+.box1 {
+    margin: 20px;
+}
+
+.box1:hover {
+    background-color: rgb(66, 66, 66);
+}
+
+.create:hover {
+    text-decoration: underline;
+    /* Gạch chân khi hover */
+    color: lightgray;
+    /* Màu chữ khi hover */
+    /* Hiệu ứng phát sáng */
+    animation: glowing 1500ms infinite alternate;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+.tablerow h1 {
+    text-align: center;
+
+}
+
+.tablerow h2 {
+    text-align: center;
+
+}
+
+.stylebtn input {
+    background-color: black;
+    color: white;
+}
+
+.part-ulti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: initial; }
+.part-End{
+    margin-left: 20px; 
+    justify-content: center; 
+    display: flex;
+}
+.part-End .foget{
+    margin-right: 15px;
+}
