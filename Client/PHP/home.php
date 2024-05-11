@@ -13,13 +13,13 @@
 
 <body>
     <div id="dau">
-        <div id="NameAvada" class="dau1" style="display: flex; justify-content: center;align-items:center ;">
+        <div id="NameAvada" class="dau1">
             AVADA
         </div>
-        <div id="find" class="dau1" style="display: flex; justify-content: center;align-items:center ;">
+        <div id="find" class="dau1">
             <input id="find" style="width: 100%; border-radius: 25px;" type="text" name="" id="" placeholder="search">
         </div>
-        <div id="caidat" class="dau1" style="display: flex; justify-items:center; align-items: center; ">
+        <div id="caidat" class="dau1">
             <div class="dau-b"><i class="fa fa-th" aria-hidden="true"></i></div>
             <div class="dau-b"><i class="fa fa-commenting" aria-hidden="true"></i></div>
             <div class="dau-b"><i class="fa fa-bell" aria-hidden="true"></i></div>
@@ -27,7 +27,7 @@
         </div>
     </div>
     <br>
-    <div id="cuoi" style="display: flex ; width: 100%; margin-top: 50px;">
+    <div id="cuoi" style="display: flex ; width: 100%; margin-top: 200px;">
         <div class="dau1">
             <ul class="custom-list" style="position: fixed;">
                 <li class="custom-list-item"><a href=""><i class="fa fa-user" aria-hidden="true"></i> <label
@@ -53,7 +53,7 @@
         <div class="dau1">
             <ul class="custom-list">
                 <li class="custom-list-item">
-
+                    
                 </li>
                
             </ul>
@@ -67,7 +67,7 @@
         </div>
     </div>
 
-   <script></script>
+   <script src="../JavaScript/Home/NameUser.js"></script>
 </body>
 
 </html>

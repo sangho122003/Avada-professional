@@ -31,14 +31,14 @@ let SignInUser = evt => {
                         lastname: snapshot.val().lastname
                     }))
                     sessionStorage.setItem("user-creds", JSON.stringify(Credentials.user));
-                    window.location.href = 'home.php';
+                    window.location.href = 'Home.php';
                 }
             })
         }).catch((error) => {
             alert(error.message);
             console.log(error.code);
             console.log(error.message);
-            window.location.href = 'home.php';
+            window.location.href = 'Home.php';
         })
 
 }

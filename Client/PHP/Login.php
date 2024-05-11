@@ -40,7 +40,7 @@
             </div>
             <div class="part-End">
                 <div class="foget">Foget password</div>
-                <a href="register.html">
+                <a href="Register.php">
                     <div class="create">Create the User</div>
                 </a>
 
