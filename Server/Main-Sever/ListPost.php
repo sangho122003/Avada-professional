@@ -23,4 +23,4 @@ if ($result) {
     // Truy vấn thất bại
     echo "Lỗi: " . mysqli_error($con);
 }
-?>
+

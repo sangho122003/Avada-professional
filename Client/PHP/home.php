@@ -53,11 +53,9 @@
         <div class="dau1">
             <ul class="custom-list">
                 <li class="custom-list-item">
-                    
+                    <?php include '../../Server/Main-Sever/ListPost.php';?>
                 </li>
-               
             </ul>
-
         </div>
         <div class="dau1">
             <ul class="custom-list" style="position: fixed;">
